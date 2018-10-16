@@ -41,8 +41,8 @@ end   # code your solution here using the "while" keyword
 def until_iterator(number_of_times)
   counter = 0
   until number_of_times >= 7
-    puts phrase
     phrase = "Welcome to Flatiron School's Web Development Course!"
+    puts phrase
     counter += 1
   if counter >= 7
    break
