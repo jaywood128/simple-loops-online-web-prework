@@ -40,7 +40,7 @@ end   # code your solution here using the "while" keyword
   # hint: user a counter to tell the while loop when to stop!
 def until_iterator(number_of_times)
   counter = 0
-  until number_of_times >= 7
+  until number_of_times == 7
     phrase = "Welcome to Flatiron School's Web Development Course!"
     puts phrase
     counter += 1
